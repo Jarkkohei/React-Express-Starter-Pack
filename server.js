@@ -5,9 +5,9 @@ const app = express();
 
 app.get('/api/customers', (req, res) => {
     const customers = [
-        {id: 1, firstname: 'Marko', lastname: 'Mallila'},
-        {id: 2, firstname: 'Mikko', lastname: 'Mallikas'},
-        {id: 3, firstname: 'Pentti', lastname: 'Mallinen'},
+        {id: 1, firstName: 'Marko', lastName: 'Mallila'},
+        {id: 2, firstName: 'Mikko', lastName: 'Mallikas'},
+        {id: 3, firstName: 'Pentti', lastName: 'Mallinen'},
     ];
     res.json(customers);
 });
